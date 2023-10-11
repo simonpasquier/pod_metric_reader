@@ -23,7 +23,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: test-$j
-  namespace: test-ns-$i
+  namespace: test-$i
   labels:
     kubernetes.io/name: test
 spec:
